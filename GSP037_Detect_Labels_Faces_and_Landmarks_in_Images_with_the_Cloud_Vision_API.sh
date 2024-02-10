@@ -49,12 +49,11 @@ export PROJECT_NUMBER=$(gcloud projects describe $DEVSHELL_PROJECT_ID --format="
 gcloud storage buckets create gs://$DEVSHELL_PROJECT_ID-bucket --project=$DEVSHELL_PROJECT_ID
 
 
-curl -L -o city.png https://github.com/quiccklabs/Labs_solutions/raw/4c3cf371380c277f2ab429ef20b5eceb69de5c30/Detect%20Labels%20Faces%20and%20Landmarks%20in%20Images%20with%20the%20Cloud%20Vision%20API/city.png
+curl -L -o city.png https://github.com/G-Tech-007/The-Arcade-Trivia-January-2024/blob/main/city.png
 
-curl -Lo donuts.png https://github.com/quiccklabs/Labs_solutions/raw/4c3cf371380c277f2ab429ef20b5eceb69de5c30/Detect%20Labels%20Faces%20and%20Landmarks%20in%20Images%20with%20the%20Cloud%20Vision%20API/donuts.png
+curl -Lo donuts.png https://github.com/G-Tech-007/The-Arcade-Trivia-January-2024/blob/main/donuts.png
 
-curl -Lo selfie.png https://github.com/quiccklabs/Labs_solutions/raw/4c3cf371380c277f2ab429ef20b5eceb69de5c30/Detect%20Labels%20Faces%20and%20Landmarks%20in%20Images%20with%20the%20Cloud%20Vision%20API/selfie.png
-
+curl -Lo selfie.png https://github.com/G-Tech-007/The-Arcade-Trivia-January-2024/blob/main/selfie.png
 
 gsutil cp city.png gs://$DEVSHELL_PROJECT_ID-bucket/city.png
 
